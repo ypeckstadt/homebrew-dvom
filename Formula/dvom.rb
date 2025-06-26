@@ -1,8 +1,8 @@
 class Dvom < Formula
   desc "DVOM tool"
   homepage "https://github.com/ypeckstadt/dvom"
-  url "https://github.com/ypeckstadt/dvom/archive/v0.2.2.tar.gz"
-  sha256 "de4b6e898acc8b7a28869aa6142c2ae6266413c45af1eec838974a7f98eb386e"
+  url "https://github.com/ypeckstadt/dvom/archive/v0.2.3.tar.gz"
+  sha256 "3241dce1b99f66b6b7910eab718ab96c200c498367a102122c11a87ea966dd60"
   license "MIT"
 
   depends_on "go" => :build
