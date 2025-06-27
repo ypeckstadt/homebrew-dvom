@@ -5,21 +5,21 @@
 class Bump < Formula
   desc "A Go CLI tool for semantic version management and releases"
   homepage "https://github.com/ypeckstadt/bump"
-  version "0.4.5"
+  version "0.4.6"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/ypeckstadt/bump/releases/download/v0.4.5/bump_0.4.5_darwin_amd64.tar.gz"
-      sha256 "0eea345e7a09eaf9555272f610ea8b9ab6848937122b9d75cc8bb67635f25d68"
+      url "https://github.com/ypeckstadt/bump/releases/download/v0.4.6/bump_0.4.6_darwin_amd64.tar.gz"
+      sha256 "8e0ba6253309ce6038efc377b2793778cace7503a3ccf2f0cda613c32723f6d5"
 
       def install
         bin.install "bump"
       end
     end
     on_arm do
-      url "https://github.com/ypeckstadt/bump/releases/download/v0.4.5/bump_0.4.5_darwin_arm64.tar.gz"
-      sha256 "1c3b578b3ef0b050c411b77cb29e46dd1be401bfe2932bec790ffaef6bbb26c8"
+      url "https://github.com/ypeckstadt/bump/releases/download/v0.4.6/bump_0.4.6_darwin_arm64.tar.gz"
+      sha256 "b2e506cfbbdd9886d20a4542ea2b89b3dca56d233504476fcdeba41dbd69f299"
 
       def install
         bin.install "bump"
@@ -30,8 +30,8 @@ class Bump < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ypeckstadt/bump/releases/download/v0.4.5/bump_0.4.5_linux_amd64.tar.gz"
-        sha256 "c8b57493a9e65a6dc0c77002aed8faaf2a64ef6d5ffbba51eb3a6f8146d30da0"
+        url "https://github.com/ypeckstadt/bump/releases/download/v0.4.6/bump_0.4.6_linux_amd64.tar.gz"
+        sha256 "04173828b266c7dd824f8a6e2bb9f338994f988ad7169f74dde9d8dd5c9794e0"
 
         def install
           bin.install "bump"
@@ -40,8 +40,8 @@ class Bump < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/ypeckstadt/bump/releases/download/v0.4.5/bump_0.4.5_linux_armv6.tar.gz"
-        sha256 "03b884e2c9fa928456478c6f20b56ed266f610f64ebc8d4f4846d2de548de55e"
+        url "https://github.com/ypeckstadt/bump/releases/download/v0.4.6/bump_0.4.6_linux_armv6.tar.gz"
+        sha256 "d770b3ec0aded05d13de0a55a13804ec3235af72d561f3b1a09858922d4c4e54"
 
         def install
           bin.install "bump"
@@ -50,8 +50,8 @@ class Bump < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ypeckstadt/bump/releases/download/v0.4.5/bump_0.4.5_linux_arm64.tar.gz"
-        sha256 "145b6f8adfc8700a2adf6aa3f8ed48ff2fab96922979fc2ae170506f4979de1c"
+        url "https://github.com/ypeckstadt/bump/releases/download/v0.4.6/bump_0.4.6_linux_arm64.tar.gz"
+        sha256 "b76ca10dc0bf7e7bf059a794c54168bd44171dd5d975d79f5ec8d6d7b7951545"
 
         def install
           bin.install "bump"
