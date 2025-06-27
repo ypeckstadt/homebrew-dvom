@@ -5,21 +5,21 @@
 class Dvom < Formula
   desc "DVOM - Tool to create docker volume snapshots and manage them."
   homepage "https://github.com/ypeckstadt/dvom"
-  version "0.2.5"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/ypeckstadt/dvom/releases/download/v0.2.5/dvom_0.2.5_darwin_amd64.tar.gz"
-      sha256 "19f411010915b991b2846964e39590db8cb3d3f194c95597b9ce11bfa9d49fff"
+      url "https://github.com/ypeckstadt/dvom/releases/download/v0.1.1/dvom_0.1.1_darwin_amd64.tar.gz"
+      sha256 "b132e256926a613dfba6974ccfb9943196fe6afe7ba721046b5fc594f2acfab2"
 
       def install
         bin.install "dvom"
       end
     end
     on_arm do
-      url "https://github.com/ypeckstadt/dvom/releases/download/v0.2.5/dvom_0.2.5_darwin_arm64.tar.gz"
-      sha256 "b934064e9eacea18479fd51c2d59d28ebf8f40015e6743d045cd381520875b29"
+      url "https://github.com/ypeckstadt/dvom/releases/download/v0.1.1/dvom_0.1.1_darwin_arm64.tar.gz"
+      sha256 "a106142f5dbc5647643d649257e4c1329470bef6ebb95324d8e4d169057b2f2a"
 
       def install
         bin.install "dvom"
@@ -30,8 +30,8 @@ class Dvom < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ypeckstadt/dvom/releases/download/v0.2.5/dvom_0.2.5_linux_amd64.tar.gz"
-        sha256 "3988f4fac4dd102b56d6bb07b3e5f6cb2580ca405253025a83d9738deb9ca54b"
+        url "https://github.com/ypeckstadt/dvom/releases/download/v0.1.1/dvom_0.1.1_linux_amd64.tar.gz"
+        sha256 "9862bf2fedf521dedd868616b5318db7a1ad2cbafb8567cd5609d01cc1a26480"
 
         def install
           bin.install "dvom"
@@ -40,8 +40,8 @@ class Dvom < Formula
     end
     on_arm do
       if !Hardware::CPU.is_64_bit?
-        url "https://github.com/ypeckstadt/dvom/releases/download/v0.2.5/dvom_0.2.5_linux_armv6.tar.gz"
-        sha256 "025d96929703c8edfa43520e0ea7c8c52a9eb2a41fe18f0e293aef3cbdece870"
+        url "https://github.com/ypeckstadt/dvom/releases/download/v0.1.1/dvom_0.1.1_linux_armv6.tar.gz"
+        sha256 "6edac25cd0998f1f86398d7c20ee26b20f850d03b5bbf28e54c1cdced2982eee"
 
         def install
           bin.install "dvom"
@@ -50,8 +50,8 @@ class Dvom < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/ypeckstadt/dvom/releases/download/v0.2.5/dvom_0.2.5_linux_arm64.tar.gz"
-        sha256 "7735ba887bfb5c0557dab90265de4fd0a17b2f2a109f832ba4e4bd038c78cf9e"
+        url "https://github.com/ypeckstadt/dvom/releases/download/v0.1.1/dvom_0.1.1_linux_arm64.tar.gz"
+        sha256 "9cd86a4a7d69171366a5bfaebae53edfc154188967d05c498e7d1ebe82131d36"
 
         def install
           bin.install "dvom"
