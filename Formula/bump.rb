@@ -1,8 +1,8 @@
 class Bump < Formula
   desc "Bump tool"
   homepage "https://github.com/ypeckstadt/bump"
-  url "https://github.com/ypeckstadt/bump/archive/v0.3.0.tar.gz"
-  sha256 "502e2a4353e30f3cb3278f8cc0dcda9062f96a1d4d350a659723f23bee7510ef"
+  url "https://github.com/ypeckstadt/bump/archive/v0.4.0.tar.gz"
+  sha256 "17e90db0c6eae47bae063cbdd1822313f25a21f58ad3fb5947240c59283c7b37"
   license "MIT"
 
   depends_on "go" => :build
