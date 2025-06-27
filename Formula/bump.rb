@@ -1,4 +1,4 @@
-class bump < Formula
+class Bump < Formula
   desc "Bump tool"
   homepage "https://github.com/ypeckstadt/bump"
   url "https://github.com/ypeckstadt/bump/archive/v0.3.0.tar.gz"
